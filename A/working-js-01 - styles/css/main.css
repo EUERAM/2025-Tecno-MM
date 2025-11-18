@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:1200px;
+    margin:auto;
+    border:1px solid black;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap; /* in order to use specific whith of elements (.col) */
+
+}
+
+.col{
+    transition: 0.5s all;
+    width:33.33%;
+    border: 1px solid red;
+    padding:20px;
+
+}

@@ -1,50 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Webpage - Tere Web</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- Font Awesome for store icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Here the HTML structure -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="img/Logo.png" alt="Logo of Tere">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="http://eram.cat">Home</a>
-                    </li>
-                    <li>
-                        <a href="http://eram.cat">How Tere works</a>
-                    </li>
-                    <li>
-                        <a href="http://eram.cat">Tere benefits</a>
-                    </li>
-                    <li>
-                        <a class="btn-help" href="http://eram.cat">Help center</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container flex">
+        <div class="logo">
+          <img src="img/Logo.png" alt="Logo of Tere" />
         </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="http://eram.cat">Home</a>
+            </li>
+            <li>
+              <a href="http://eram.cat">How Tere works</a>
+            </li>
+            <li>
+              <a href="http://eram.cat">Tere benefits</a>
+            </li>
+            <li>
+              <a class="btn-help" href="http://eram.cat">Help center</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <section class="hero"></section>
-    <section class="link"></section>
-    <section class="how-it-works"></section>
+    <section class="hero">
+      <div class="container hero-flex">
+        <div class="hero-left">
+          <h1>DOWNLOAD APP,<br />SAVE MONEY, MAKE<br />FRIENDS!</h1>
+          <p class="description hero-tagline">
+            Its simple and its free. Play your part in reducing Carbon Footprint
+            and help Mother Nature to sustain its beauty. So what are you
+            waiting for ?
+          </p>
+          <div class="store-buttons">
+            <a
+              class="store-btn app-store button"
+              href="#"
+              aria-label="Download on the App Store"
+            >
+              <span class="icon" aria-hidden="true"
+                ><i class="fa-brands fa-apple"></i
+              ></span>
+              <span class="text">DOWNLOAD</span>
+            </a>
+            <a
+              class="store-btn google-play button"
+              href="#"
+              aria-label="Get it on Google Play"
+            >
+              <span class="icon" aria-hidden="true"
+                ><i class="fa-brands fa-google-play"></i
+              ></span>
+              <span class="text">DOWNLOAD</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="img/hero.png" alt="Illustration of Tere ride sharing app" />
+        </div>
+      </div>
+    </section>
+    <section class="link">
+      <div class="container link-box">
+        <div class="link-text">
+          <p class="description">
+            Let’s go. Get a link <br />
+            to download the app.
+          </p>
+        </div>
+        <form class="link-form" action="#" method="post">
+          <div class="input-group">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Enter mobile phone number"
+              aria-label="Mobile phone number"
+              required
+            />
+            <button type="submit" class="store-btn button">
+              apply to drive
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="how-it-works">
+      <div class="container">
+        <h2>How <span class="green">Tere</span> Works</h2>
+        <p class="description">
+          Download and install the tere app. Enter your phone number and make
+          your user account. when approved you may start driving.
+        </p>
+        <div class="row">
+          <div class="col text-right">
+            <div class="step">
+              <div class="number">1</div>
+              <h3>Request a ride</h3>
+              <p>
+                Have to reach office or going for shopping ? Just put your
+                current location and destination and search a ride that suits
+                you
+              </p>
+            </div>
+            <div class="step">
+              <div class="number">3</div>
+              <h3>Instant Notification</h3>
+              <p>
+                Get instant notifications for your rides and be in contact with
+                fellow riders all the time
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="img/works.png" alt="Tere Image" />
+          </div>
+          <div class="col">
+            <div class="step">
+              <div class="number">2</div>
+              <h3>Post a ride</h3>
+              <p>
+                Going somewhere but hate to travel alone - just post your ride
+                details and publish it
+              </p>
+            </div>
+            <div class="step">
+              <div class="number">4</div>
+              <h3>Cashless Payments</h3>
+              <p>
+                Payment made easy by using your own Wallet - no more cash to
+                carry
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="benefits"></section>
     <footer></footer>
-</body>
-
+  </body>
 </html>
