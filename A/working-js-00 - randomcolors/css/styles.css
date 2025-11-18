@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* transition: all 0.5s; */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.change-color {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background 0.4s ease, transform 0.15s ease, box-shadow 0.4s ease;
+}
+
+.change-color:hover {
+  background: linear-gradient(135deg, #ff8800, #ff1f9d);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.change-color:active {
+  transform: translateY(0);
+  filter: brightness(0.92);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.change-color:focus-visible {
+  outline: 3px solid #ff1f9d;
+  outline-offset: 3px;
+}
+
+.random-color {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background 0.4s ease, transform 0.15s ease, box-shadow 0.4s ease;
+}
+
+.random-color:hover {
+  background: linear-gradient(135deg, #7b93ff, #8e5bb8);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.random-color:active {
+  transform: translateY(0);
+  filter: brightness(0.92);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.random-color:focus-visible {
+  outline: 3px solid #764ba2;
+  outline-offset: 3px;
+}
+
+.stop-color {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background 0.4s ease, transform 0.15s ease, box-shadow 0.4s ease;
+}
+
+.stop-color:hover {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.stop-color:active {
+  transform: translateY(0);
+  filter: brightness(0.92);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.stop-color:focus-visible {
+  outline: 3px solid #991b1b;
+  outline-offset: 3px;
+}
