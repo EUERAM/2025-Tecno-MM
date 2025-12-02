@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+}
+
+.container video {
+  width: 100%;
+  transition: all 1s;
+}
+.container {
+  position: relative;
+}
+.container .video-animals {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.container .areaInteractiva {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}

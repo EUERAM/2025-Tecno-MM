@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with medias</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>Working with medias</h1>
+    <p>This is a project to practice working with media files in JavaScript.</p>
+    <div class="audio-player">
+      <button class="play-audio">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button class="pause-audio">
+        <i class="fa-solid fa-pause"></i>
+      </button>
+    </div>
+    <audio src="medias/groove.mp3"></audio>
+
+    <div class="container">
+      <video
+        class="video-mar"
+        src="medias/video.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+      <video
+        class="video-animals"
+        src="medias/video1.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+      <div class="areaInteractiva"></div>
+    </div>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
