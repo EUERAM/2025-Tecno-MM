@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Video</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- YouTube Background Video -->
+    <div class="video-background">
+      <iframe
+        id="youtubePlayer"
+        class="video-iframe"
+        src="https://www.youtube.com/embed/1mmxuuVmST4?si=gykppxn26xVn0uWg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Content Overlay -->
+    <div class="content-overlay">
+      <div class="content">
+        <h1>Welcome to Background Video</h1>
+        <p>Enjoy this beautiful YouTube video as your background</p>
+        <button id="toggleVideo" class="btn">Pause Video</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
