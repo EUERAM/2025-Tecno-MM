@@ -2,7 +2,7 @@
   width: 134px;
   height: 134px;
   background-image: url("../img/dino.png");
-  animation: run 0.2s steps(6) infinite;
+  animation: run 1s steps(6) infinite;
 }
 
 @keyframes run {
